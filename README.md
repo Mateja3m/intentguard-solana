@@ -1,4 +1,4 @@
-# IntentGuard Solana PoC
+# IntentGuard Solana 
 
 Minimal TypeScript proof of concept for deterministic pre-signing validation of Solana transaction preparation data.
 
