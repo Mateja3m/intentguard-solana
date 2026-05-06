@@ -1,0 +1,31 @@
+{
+  "userIntent": {
+    "actionType": "transfer",
+    "assetSymbol": "USDC",
+    "amount": "250",
+    "recipient": "EG9gCzTyDS6a63r2fbQyFbevvttGNsks2ygX6udRB6KD"
+  },
+  "proposedAction": {
+    "chain": "solana",
+    "actionType": "transfer",
+    "assetSymbol": "USDC",
+    "amount": "250",
+    "recipient": "EG9gCzTyDS6a63r2fbQyFbevvttGNsks2ygX6udRB6KD",
+    "tokenMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "programIds": ["TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"]
+  },
+  "policy": {
+    "maxAmount": "100",
+    "allowedActions": ["transfer"],
+    "allowedAssets": ["USDC"],
+    "allowedProgramIds": ["TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"],
+    "requireKnownPrograms": true,
+    "requireRecipientMatch": true,
+    "requireAmountMatch": true,
+    "requireAssetMatch": true
+  },
+  "solana": {
+    "checkRpcHealth": false,
+    "checkBalance": false
+  }
+}
